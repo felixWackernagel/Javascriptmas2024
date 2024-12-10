@@ -15,3 +15,4 @@ Happy Coding and learning (to me) 🎄
 7. Sass Landing Page: GiftChain (frontend design for a landing page, [here is the Figma design](https://www.figma.com/design/01HjiTq1GyFtFnEWp2pVk4/GiftChain.ai---JavaScriptmas?node-id=0-1&node-type=canvas&t=cm8RI68W3BMglJix-0))
 8. Seasonal Hangman (mini game to find a word)
 9. Which recipe should Grandma make? (filter recipes by loved and disliked ingredients)
+10. Christmas Flag in CSS (Create a christmas flag with only css)
