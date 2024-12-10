@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s06j5l7",
+  "description": "https://scrimba.com/javascriptmas-c0javascriptmas/~0654?utm_source=convertkit&utm_medium=email&utm_campaign=%F0%9F%8E%84%20JavaScriptmas%20%F0%9F%8E%81%20Challenge%2010!%20-%2015930047",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
