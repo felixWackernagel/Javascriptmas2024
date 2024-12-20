@@ -16,3 +16,13 @@ Happy Coding and learning (to me) 🎄
 8. Seasonal Hangman (mini game to find a word)
 9. Which recipe should Grandma make? (filter recipes by loved and disliked ingredients)
 10. Christmas Flag in CSS (Create a christmas flag with only css)
+11. Card Matching Game
+12. Hack Santa's Merch Store
+13. Santa's Change
+14. Northagram
+15. Jingle Bills
+16. Find the naughty elf
+17. Santa Needs You (A11y)
+18. The Cost of Christmas
+19. Holiday Gift Shopping
+20. Elf Name Generator (Generate name by initials)
