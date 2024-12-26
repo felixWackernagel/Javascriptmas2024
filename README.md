@@ -1,5 +1,6 @@
 # 🎅 Happy Javascriptmas 2024 🦌
-This repo contains hopefully 24 branches for each day of december before Christmas. 
+
+This repo contains hopefully 24 branches for each day of december before Christmas.
 Each day contains the solution of the Javascriptmas coding challenge from Scrimba in 2024.
 
 Happy Coding and learning (to me) 🎄
@@ -26,3 +27,7 @@ Happy Coding and learning (to me) 🎄
 18. The Cost of Christmas
 19. Holiday Gift Shopping
 20. Elf Name Generator (Generate name by initials)
+21. Santa's Data Analysis
+22. Christmas Label Maker
+23. Santa got hacked (replace list elements)
+24. A Christmas Code (binary to ascii and decode)
