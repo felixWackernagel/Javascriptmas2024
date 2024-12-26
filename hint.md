@@ -1,7 +1,8 @@
-The coded message is written in binary. How can you convert binary to regular (base 10) numbers?
+- You will probably want to iterate over santasArr and check if an element is 'Grinch'.
 
-And what would those numbers mean 🤔 - is it possible that each letter, number and special character has it's own ascii code? Find a way to convert ascii to something readable!
+- As you iterate, be sure to keep a track of the index you are on!
+(Array methods like .map() and .forEach() have a parameter which does exactly that!).
 
-The info in key.md should allow you to figure out what you need to do with those ascii codes 🔮
+- Use a let to store the index of the next name from missingNamesArr to be added back to santasArr. 
 
-Final tip: Search online for "Ascii codes table" and look at the printable characters.
+- You should then be able to use the index of each 'Grinch' to replace 'Grinch' with a missing name.

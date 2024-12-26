@@ -1,21 +1,4 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  min-height: 100vh;
-}
-
-main > div {
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 10px;
-  margin: 18px;
-  max-width: 455px;
+html, body {
+    margin: 0;
+    padding: 0;
 }

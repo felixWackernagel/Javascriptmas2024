@@ -1,47 +1,19 @@
-import { codedMessage } from "./codedMessage.js";
-
 /*
-codedMessage.js holds a coded message (well, the name makes it obvious, huh?).
+Santa has been hacked! In the list of kids to deliver to, the Grinch has replaced some kids' names with his own name.
 
-**Task**
-- Decode the message!
+The original array looked like this: 
+['James', 'Yi', 'Florinda', 'Fatima', 'Tariq', 'Jose', 'Clare', 'Gibbs']
 
-key.md will help!
+**Task** 
+Remove 'Grinch' from santasArr and put the missing kids back in their original places!
 
-**Stretch Goal**
-No stretch goal for the final day. Just stretch your legs!
+**Stretch goal**
+- Do this without creating a new array and using no array methods other than .forEach().
 */
 
-const HINT = 10;
-const codedMessageEl = document.getElementById("codedMessage");
-const encodedMessageEl = document.getElementById("encodedMessage");
-const decodedMessageEl = document.getElementById("decodedMessage");
+const santasArr = ['James', 'Yi', 'Grinch', 'Fatima', 'Tariq', 'Grinch', 'Clare', 'Grinch']
 
-function binaryToDecimal(asciiBinaryCode) {
-  return parseInt(asciiBinaryCode, 2);
-}
+const missingNamesArr = ['Florinda', 'Jose', 'Gibbs']
+ 
 
-function decimalToCharacter(asciiDecimalCode) {
-  return String.fromCharCode(asciiDecimalCode);
-}
-
-function decode(asciiDecimalCode) {
-  let decimal = asciiDecimalCode - HINT;
-  if (decimal <= 31) {
-    decimal = 127 - (31 - decimal);
-  }
-  return decimal;
-}
-
-codedMessageEl.textContent = codedMessage.join(" ");
-
-encodedMessageEl.textContent = codedMessage
-  .map(binaryToDecimal)
-  .map(decimalToCharacter)
-  .join("");
-
-decodedMessageEl.textContent = codedMessage
-  .map(binaryToDecimal)
-  .map(decode)
-  .map(decimalToCharacter)
-  .join("");
+// Expected Output: ['James', 'Yi', 'Florinda', 'Fatima', 'Tariq', 'Jose', 'Clare', 'Gibbs']
